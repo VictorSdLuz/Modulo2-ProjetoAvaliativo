@@ -36,25 +36,3 @@ function Recipes() {
 
 export default Recipes;
 
-
-
-// const recipesDummy =
-// [
-//   {
-//     id: Math.random(), //procurar maneira melhor
-//     title: 'tituloDummy1',
-//     ingridient: 'ingrendienteDummy2',
-//     preparationDescription: 'descricaoDummy1',
-//     lactose: false,
-//     gluten: false
-//   },
-//   {
-//     id: Math.random(), //procurar maneira melhor
-//     title: 'tituloDummy2',
-//     ingridient: 'ingrendienteDummy2',
-//     preparationDescription: 'descricaoDummy2',
-//     lactose: false,
-//     gluten: false
-//   },
-// ];
-
