@@ -1,0 +1,64 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+.addButtonContainer .addButton{
+    cursor: pointer;
+    color: rgb(248, 192, 7);
+    border-radius: 50%;
+    outline: none;
+    background: black;
+    font-size: 54px;
+    font-weight: bold;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: rgb(248, 192, 7);
+    width: 500px;
+    max-width: 80%;
+}
+
+.modalHeader{
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1 px solid black;
+}
+.modalHeader .title{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.modalHeader .closeButton{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modalBody{
+    padding: 10px;
+    padding: 15px;
+}
+
+
+.modalBody button[type="submit"] {
+    width: 120px;
+    height: 80px;
+    border-radius: 10%;
+    background-color: rgb(248, 192, 7);
+    font-size: 22px;
+    font-weight: bold;
+    border-width: 4px;
+    border-style:solid;
+    border-color: black;
+    cursor: pointer;
+  }
