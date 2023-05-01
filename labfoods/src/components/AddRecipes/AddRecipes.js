@@ -11,8 +11,6 @@ const AddRecipes = ({setRecipes}) => {
     const [entenredLactose, setEnteredLactose] = useState(false);
     const [enteredGlutem, setEntenredGlutem] = useState(false);
 
-    //fazer forma maximo dps 
-
     const ingredientsChangeHandler = (event) => {
         setEnteredIngredients(event.target.value);
     };
